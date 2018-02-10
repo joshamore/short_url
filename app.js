@@ -4,7 +4,6 @@ const mongo = require('mongodb').MongoClient;
 // DB URL
 const url = 'TODO: Add your DB url';
 
-
 // Hosting domain
 const domain = 'http://example.com/';
 
