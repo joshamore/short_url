@@ -16,12 +16,14 @@ Short URL is returned in a JavaScript object.
 ## Built with
 
 **Backend**
-
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](http://expressjs.com/)
 
 **Database**
 * [MongoDB](https://www.mongodb.com/)
+
+**Frontend**
+* [Bootstrap](https://getbootstrap.com/)
 
 --- 
 
