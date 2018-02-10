@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const mongo = require('mongodb').MongoClient;
 
 // DB URL
@@ -64,6 +65,11 @@ function urlExtensionGenerator(callback) {
  * ROUTES
  * 
  ******************************************/
+
+// Index route
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/public/index.html'));
+});
 
 // Route to generate a short URL
 app.get('/add/*', function(req, res) {
