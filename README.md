@@ -1,6 +1,6 @@
 # Short URL Generator
 
-**Deployed example here.**
+**Deployed example [here](https://gentle-thicket-70749.herokuapp.com/).**
 
 ## What it does
 Generates a shortened URL from a user-provided URL.
